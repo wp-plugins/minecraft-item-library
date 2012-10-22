@@ -79,6 +79,28 @@ or
 
 Post it in the Wordpress support forum for this plugin.
 
+== Screenshots ==
+
+1. New MC Item custom post type (View the Instructions tab for following screenshots)
+2. Entering the Cow critter as a Source
+3. Cow stats
+4. Milk Item ID
+5. Cake Item as Craftable and Food
+6. Cake crafting options
+7. Viewing the Cake post
+
+== Changelog ==
+
+= 1.1 =
+* Fixed auto inserting MC Categories on Plugin activation.
+
+= 1.0 =
+* Initial Launch
+
+== Upgrade Notice ==
+
+None at this time.
+
 == Instructions ==
 
 **Note** To get the crafting table, item stats, and sources table to display when viewing the item, you need to either turn on the Auto Insert options, or enter the shortcodes on the item page.
@@ -114,21 +136,3 @@ Here you will see a drop down of the crafting stations, an input box to mark how
 After all of the options are set, you can publish your cake and view it to see how it looks.
 
 You can view screenshots of what was just gone over on the Screenshots tab.
-
-== Screenshots ==
-
-1. New MC Item custom post type (View the Instructions tab for following screenshots)
-2. Entering the Cow critter as a Source
-3. Cow stats
-4. Milk Item ID
-5. Cake Item as Craftable and Food
-6. Cake crafting options
-7. Viewing the Cake post
-
-== Changelog ==
-
-= 1.1 =
-* Fixed auto inserting MC Categories on Plugin activation.
-
-= 1.0 =
-* Initial Launch
