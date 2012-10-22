@@ -127,5 +127,8 @@ You can view screenshots of what was just gone over on the Screenshots tab.
 
 == Changelog ==
 
+= 1.1 =
+* Fixed auto inserting MC Categories on Plugin activation.
+
 = 1.0 =
 * Initial Launch
