@@ -53,7 +53,7 @@ Only 4 of these are required for the plugin to work.
 
 The others you can create/add/delete as you see fit.
 
-**Note** When the plugin is first activated, the 5 parent categories will show up in Minecraft Item > MC Categories. The other 23 will be there, but for some reason they will not show up there. To fix this, simply add another MC Category and the children will show up. Then you can just delete the new one you created. Not sure if this is a bug in Wordpress or if it's something I am doing wrong.
+**Note** When the plugin is first activated, the 5 parent categories will show up in Minecraft Item > MC Categories. The other 23 will be there, but for some reason they will not show up there. To fix this, simply add another MC Category then go back to the MC Categories (since new ones are added via ajax) and the children will show up. Then you can just delete the new one you created. Not sure if this is a bug in Wordpress or if it's something I am doing wrong.
 
 == Installation ==
 
@@ -81,7 +81,8 @@ Post it in the Wordpress support forum for this plugin.
 
 == Screenshots ==
 
-1. I will add some screenshots soon.
+1.
+2.
 
 == Changelog ==
 
