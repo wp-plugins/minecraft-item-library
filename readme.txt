@@ -11,6 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Adds the ability to create a Minecraft item/block/recipe/monster library using custom post types.
 
 == Description ==
+
+**Note** Having issues getting screenshots to load on the screenshots tab, hopefully they'll be up soon.
+
 This plugin adds the ability to create a library of Minecraft items/blocks/recipes/monsters etc.
 
 Option to auto insert item information, or shortcodes are available.
@@ -81,7 +84,7 @@ Post it in the Wordpress support forum for this plugin.
 
 == Screenshots ==
 
-1. New MC Item custom post type (View the Instructions tab for following screenshots)
+1. New MC Item custom post type (View the Other Notes tab for following screenshots)
 2. Entering the Cow critter as a Source
 3. Cow stats
 4. Milk Item ID
