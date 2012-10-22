@@ -79,10 +79,51 @@ or
 
 Post it in the Wordpress support forum for this plugin.
 
+== Instructions ==
+
+**Note** To get the crafting table, item stats, and sources table to display when viewing the item, you need to either turn on the Auto Insert options, or enter the shortcodes on the item page.
+
+If you just wanted to have a library of items without using the craftable options, or displaying the source of items, then all you need to do is create a new MC Item, enter the title, description, excerpt if your theme supports excerpts, and categorize it. You could also just use the stats block.
+
+However, if you want to use the full functionality, displaying the recipes for how to create items, the source of raw materials, etc... you need to start with the sources and then build up to the final item. I highly suggest the first 3 items you add are the Crafting Stations... Crafting Table, Furnace, and the Brewing stand. You don't need to add their recipe to make them yet, but they are required for crafting all of the craftable items. Just enter the title, description, add a featured image, and assign them to the Crafting Station category. You can come back later to add their recipe for how to build them.
+
+On to the cake!
+
+Cake requires Milk which comes from a Cow, Sugar which comes from Sugar Cane, an Egg from a Chicken, and Wheat which can be grown.
+
+**Note** Once you've added an item you can reuse it in other recipes, so once you get more and more of the raw materials entered, this process becomes easier since you're not entering every single item anew.
+
+So for creating a cake, we would first enter the Cow. Add a new MC Item, Cow as title, description as you see fit, add the Cow to the Source category and to the Critters category. We add it to the Source category to mark it is as useable in other items as a source... such as Milk and Leather. You can then scroll down and also enter the Health of the cow, which is 10. For the icons to display, add a featured image. The icon sizes used are 50 x 50 px, you can add any size image and a 50 x 50 px image will automatically be generated via Wordpress's built in cropping/thumbnail system.
+
+Now we are done with the cow, go ahead and publish.
+
+Next we will add Milk, follow the same steps as above except for the following... For categories we want to add it to Material. We add it to Material so that it can be used as a material in the crafting options and will display in the drop downs for the slots. Then if you keep the categories that are default, enter it into the Food child category under the Item Library parent category.
+
+(Optional) Scroll down and enter the minecraft item ID if you'd like. You can obtain the item ID from minecraftwiki.net or mincraftopia.com
+
+Now in the Source option block, choose Cow from the drop down menu. You can add more sources by clicking the link below the drop down.
+
+We are done with the milk, so you can Publish.
+
+Do the same for the rest of the ingredients, adding thier sources and information. Some items have stats which you can enter into the Minecraft Stats.
+
+Now for the cake! The entry is the same as above with a couple differences. For the cake we use the Crafting Options. Add the Cake to the Craftable category, then scroll down to the Craftable Options block.
+
+Here you will see a drop down of the crafting stations, an input box to mark how many of an item are crafted, and up to 9 slots to enter items. Since in Minecraft you need to put certain items in certain slots in order for the outcome to be what you expect. If you added all of the materials used for crafting a cake, you can select them in each slot. The format options to the right are for the different crafting formats available. By choosing which format, the recipe on the item page will display using that format. For a cake, it uses a crafting table, so you would use format 1.
+
+After all of the options are set, you can publish your cake and view it to see how it looks.
+
+You can view screenshots of what was just gone over on the Screenshots tab.
+
 == Screenshots ==
 
-1.
-2.
+1. New MC Item custom post type (View the Instructions tab for following screenshots)
+2. Entering the Cow critter as a Source
+3. Cow stats
+4. Milk Item ID
+5. Cake Item as Craftable and Food
+6. Cake crafting options
+7. Viewing the Cake post
 
 == Changelog ==
 

@@ -3,6 +3,14 @@
 #recipe-table {
 }
 
+#recipe-table td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#recipe-table table {
+}
+
 .recipe-title { /* The spans that display "Required Materials" and "Crafted With" */
 }
 

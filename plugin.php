@@ -119,6 +119,18 @@ function alien_flush_perma() {
 	$almc_options = array(
 					'lang_crafted_with' => 'Crafted With',
 					'lang_req_mats' => 'Required Materials',
+					'lang_block_id' => 'Block/Item ID',
+					'lang_atk_str' => 'Attack Str',
+					'lang_health' => 'Health',
+					'lang_heals_for' => 'Heals For',
+					'lang_damages_for' => 'Damages For',
+					'lang_armor' => 'Armor',
+					'lang_hunger_rest' => 'Hunger Restoration',
+					'lang_durability' => 'Durability',
+					'lang_stackable' => 'Stackable',
+					'lang_yes' => 'Yes',
+					'lang_no' => 'No',
+					'lang_sources' => 'Sources'
 					);
 	add_option('almc_options', $almc_options, '', 'yes');
 }

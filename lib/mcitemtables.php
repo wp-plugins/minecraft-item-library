@@ -76,10 +76,11 @@ function recipe_table() {
 			border-style: inset;
 			border-color: gray;
 			background-color: rgb(139, 139, 139);
+			text-align: center;
 		}
 		</style>
 		';
-		$string .= '<table style="float: '.$options['table_float'].'" id="recipe-table">
+		$string .= '<table style="float: '.$options['table_float'].'; width: auto; height: auto;" id="recipe-table">
 		<tr>
 		<td>
 		<table>
@@ -87,7 +88,7 @@ function recipe_table() {
 		<td>';
 		$format = get_post_meta( $post_id, 'recipe_format', true);
 		if ($format == 1 || $format == 2) {
-			$string .= '<table class="recipe-table">';
+			$string .= '<table class="recipe-table" width="auto" height="auto">';
 			$station = get_post_meta( $post_id, 'crafting_station', true );
 			$i = 0;
 			$total = 0;
@@ -176,13 +177,11 @@ function recipe_table() {
 		</table>';
 		}
 		$string .= '</td>
-		<td><span class="craft-arrow"></span></td>
-		<td><table class="recipe-table"><tr><td style="display: inline-block; width: 50px; height: 50px"><div style="position: relative">' . get_the_post_thumbnail($post_id, 'recipe-table') . ' 
+		<td valign="middle"><span class="craft-arrow"></span></td>
+		<td valign="middle"><table class="recipe-table" width="auto" height="auto"><tr><td style="display: inline-block; width: 50px; height: 50px"><div style="position: relative">' . get_the_post_thumbnail($post_id, 'recipe-table') . ' 
 		<span style="position: absolute; bottom: 5px; right: 5px; color: #FFF; font-weight: bold;">'.get_post_meta($post_id, 'num_crafted', true).'</span>
 		</div></td></tr></table></td>
 		</tr>
-		<tr><td>&nbsp;';
-		$string .= '</td></tr>
 		</table>
 		</td></tr>
 		<tr><td>
@@ -325,7 +324,7 @@ function mcsources_table() {
 	$options = get_option('almc_options');
 	$string = '';
 	$sources = get_post_meta($post_id, 'sources', true);
-	if (is_array($sources) && count($sources) > 0) {
+	if (is_array($sources) && count($sources) > 0 && $sources[0] != '') {
 		$string .= '<table style="float: '.$options['source_float'].'" id="source-table"><tr><td><span class="source-title">'.$options['lang_sources'].':</span><br />';
 		foreach ($sources As $v) {
 			if (is_numeric($v)) {
