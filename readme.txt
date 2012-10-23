@@ -12,6 +12,8 @@ Adds the ability to create a Minecraft item/block/recipe/monster library using c
 
 == Description ==
 
+View the **Other Notes** tab for more detailed instructions.
+
 **Note** Having issues getting screenshots to load on the screenshots tab, hopefully they'll be up soon.
 
 This plugin adds the ability to create a library of Minecraft items/blocks/recipes/monsters etc.
